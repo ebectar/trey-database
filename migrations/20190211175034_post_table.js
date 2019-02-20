@@ -4,7 +4,7 @@ exports.up = function(knex, Promise) {
     table.increments('id')
     table.text('heading')
     table.text('subHeading')
-    table.date('date')
+    table.text('date')
     table.text('imageURL')
     table.text('paragraph1')
     table.text('paragraph2')
